@@ -253,12 +253,6 @@ public class PerVentana extends javax.swing.JInternalFrame {
 //        String funcionPer = txtrol.getText();
 //        String generoMof = txtgenero.getText();
 //
-//        try {
-//            codigo = Integer.parseInt(txtnombre.getText());
-//        } catch (Exception e) {
-//            System.out.println(e);
-//        }
-//
 //        Personaje personaje = new Personaje(codigo, nombrePe, funcionPer, generoMof);
 //
 //        if (!txtnombre.getText().isBlank() && !funcionPer.isBlank() && !generoMof.isBlank() && !nombrePe.isBlank()) {
@@ -267,8 +261,7 @@ public class PerVentana extends javax.swing.JInternalFrame {
 //                params[0] = nombrePe;
 //                params[1] = funcionPer;
 //                params[2] = generoMof;
-//
-//                personajeCtrl.crear(codigo, params, actorCtrl.buscar(codigo), peliculaCtrl.buscar(codigo));
+
 //            }
 //        }
         cargarPersonajeTablatelf();
