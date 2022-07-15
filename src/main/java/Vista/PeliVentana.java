@@ -77,7 +77,7 @@ public class PeliVentana extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel4.setText("FECHA PUBLICACION:");
+        jLabel4.setText("AÑO PUBLICACION:");
 
         jLabel2.setText("GENERO:");
 
@@ -218,7 +218,6 @@ public class PeliVentana extends javax.swing.JInternalFrame {
 //
 //            peliculaCtrl.crear(codigo, params, fecha);
 //        }
-
         cargarPeliculaTabla();
 //        txtnombre.setText("");
 //        txtnombreactor.setText("");
@@ -263,7 +262,6 @@ public class PeliVentana extends javax.swing.JInternalFrame {
                 } catch (RuntimeException e) {
                     JOptionPane.showMessageDialog(this, e.getMessage(), "CREA", JOptionPane.ERROR_MESSAGE);
                 }
-
             } catch (RuntimeException e) {
                 JOptionPane.showMessageDialog(this, "Dato numerico invalido, porfavor revise fecha de publicacion o codigo", "CREAR", JOptionPane.ERROR_MESSAGE);
             }

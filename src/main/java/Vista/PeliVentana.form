@@ -122,7 +122,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="FECHA PUBLICACION:"/>
+        <Property name="text" type="java.lang.String" value="A&#xd1;O PUBLICACION:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">

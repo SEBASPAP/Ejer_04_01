@@ -44,7 +44,7 @@ public class PersonajeServicio implements IPersonajeServicio {
     public Personaje modificarPer(Personaje personaje) {
         for (int i = 0; i < this.personajeList.size(); i++) {
             Personaje pr = this.personajeList.get(i);
-            if (pr.getCodigo() == personaje.getCodigo()) {
+            if (personaje.getCodigo() == pr.getCodigo()) {
                 this.personajeList.set(i, personaje);
                 break;
             }
