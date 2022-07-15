@@ -273,12 +273,6 @@ public class PerVentana extends javax.swing.JInternalFrame {
 //        }
         cargarPersonajeTablatelf();
         JOptionPane.showMessageDialog(null, "Datos Ingresados Correctamente");
-
-//        txtnombre.setText("");
-//        txtnomper.setText("");
-//        txtrol.setText("");
-//        txtgenero.setText("");
-        //JOptionPane.showMessageDialog(null, "Datos Ingresados Correctamente", "Datos Ingresados Correctamente", JOptionPane.WARNING_MESSAGE);
     }//GEN-LAST:event_btnListarActionPerformed
 
     private void btnCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCrearActionPerformed
